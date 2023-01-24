@@ -1,0 +1,201 @@
+body{
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+    right: 0;
+    
+}
+.navbar{
+    background-color: rgb(0, 0, 230);
+    color: white;
+    width: 100%;
+    overflow: visible;
+    padding: 10px;
+    left: 0;
+    top: 0;
+    
+}
+.header-content{ 
+    align-items: center;
+    color: white; 
+     width: 50%;
+    margin-top: 80px;
+    padding-left: 40px;
+  
+}
+.header-content h1{
+    font-size: 40px;
+}
+.section_navbar{
+    background-color: rgb(0, 0, 230);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding-right: 40px;
+    padding-left: 50px;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 10px;
+
+}
+.navbar ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 230);
+    height: 10%;
+    overflow: visible;
+    
+}
+.navbar .business-tab{
+    float: left; margin-left: 30px;
+    font-size: 30px;
+    overflow: visible;
+}
+li a {
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    
+}
+.navbar li{
+    display: inline;
+    
+}
+.active{
+    color: aquamarine;
+}
+
+.btn-intro {
+    text-align: center;
+    display: flex;
+    color: white;
+
+}
+.get-started{
+    background-color: white;
+    border: 1pt solid transparent;
+    border-radius: 4px;
+    height: 40px;
+    text-align: center;
+}
+.watch-intro {
+    color: white;
+    text-align: center;
+
+    }
+.btn{
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-radius: 4px;
+    
+
+}
+.header-img img{
+    width: 500px;
+    height: 500px;
+    border-radius: 4px;
+    padding-bottom: 30px;
+}
+
+.home-img img{
+    width: 500px;
+    height: 500px;
+    border-radius: 4px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+#section-home{
+    background-color: rgb(247, 247, 247);
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.section-home-content{
+    padding-left: 80px;
+}
+.section-home-btn{
+    align-items: center;
+    display: flex;
+    background-color: rgb(231, 231, 231);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    width: 400px;
+}
+.btn1{
+    margin-right: 20px;
+    background-color: white;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.btn2{
+    margin-right: 20px;
+    background-color: white;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn3{
+    background-color: white;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-home{
+    display: flex;
+
+}
+.section_service h3{
+   
+    background-color: green;
+    text-align: center;
+    
+
+}
+.section-header h3{
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid;
+    max-width: fit-content;
+    align-content: center;
+}
+.section_pricing{
+    display: flex;
+}
+.section_contact{
+    display: flex;
+
+}
+div.fixed {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 300px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    width: fit-content;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+
+  }
