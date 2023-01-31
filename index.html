@@ -4,24 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>demo page</title>
+    <title>demo html</title>
     <link rel="stylesheet" href="index.css">
     
 </head>
 <body>
+    <script src="/index.js"></script>
         <div class="navbar">
                 <ul style="text-align: center; padding: 30px;">
-                <li class="business-tab"><a href="#section_navbar">Business</a></li>
-                <li class="nav-item"><a class="active" href="#section-home">Home</a></li>
-                <li class="nav-item"><a href="#Services">Services</a></li>
-                <li class="nav-item"><a href="#Portfolio">Portfolio</a></li>
-                <li class="nav-item"><a href="#Pricing">Pricing</a></li>
-                <li class="nav-item"><a href="#Team">Team</a></li>
-                <li class="nav-item"><a href="#Conact">Conact</a></li>
-                <li style="float: right;"><a href="#">About</a></li>
+                <li class="business-tab"><a href="#section_navbar">
+                    <img src="/images/white-logo.svg" alt="">
+                </a></li>
+                <li class="nav-item"><a class="active" href="#section-navbar">Home</a></li>
+                <li class="nav-item"><a href="#services">Services</a></li>
+                <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a href="#pricing">Pricing</a></li>
+                <li class="nav-item"><a href="#team">Team</a></li>
+                <li class="nav-item"><a href="#conact">Conact</a></li>
+                <button class="navbar-togler" type="button" aria-controls="navbar-collaps" aria-expanded="false">
+                    <span class="toggler-icon"></span>
+                    <span class="toggler-icon"></span>
+                    <span class="toggler-icon"></span>
+                </button>
+                <li style="float: right;"><a href="#">List</a></li>
                 </ul>   
         </div>  
-        <section class="section_navbar" id="section_navbar">
+        <div id="navbar-collaps">
+            <ul>
+                <li><a href="#section_home">Home</a></li>
+                <li><a href="#section_service">Services</a></li>
+            </ul>
+
+        </div>
+        <section id="section-navbar" class="section-navbar">
             <div class="header-content">
                 <h1>Corporate & Business Site Template by Ayro UI.</h1>
                 <p>
@@ -44,7 +59,7 @@
 
         <!-- Next section started -->
 
-        <section id="section-home">
+        <section id="services">
             <div class="section-home">
                 <div class="home-img">
                     <img src="/images/about-img1.jpg" alt="">
@@ -61,7 +76,7 @@
                         <Button class="btn" id="nav-who-tab" type="button" aria-controls="" >Who We Are</Button>
                     </div>
                     <div class="btn2">
-                        <Button class="btn" id="nav-who-tab" type="button" aria-controls="">Who We Are</Button>
+                        <Button class="btn" id="nav-who-tab" type="button" aria-controls="">Our Visoin</Button>
 
                     </div>
                     <div class="btn3">
@@ -70,32 +85,334 @@
                 </div>
             </div>
         </section>
-        </div
         <br>
-        <section id="section-service">
-            <div class="section-title-service">
-
+        <!-- section service -->
+        <section id="service" class="section-service">
+            <div class="section-title-container">
+                <div class="section-title">
+                   Serivices
+                </div>
+                <div class="section-header">
+                   <p>Our Best Services</hp>
+                </div>
+                <div class="section-content">
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. 
+                </p>
+                </div>
             </div>
-            <div class="section-container-service">
+                <div class="grid-container">
+                        <div class="grid-item">
+                            
+                            <div class="title">
+                                <div class="icon">
+                                    <img src="/images/capsule.svg" alt="">
+                                </div>
+                                <h4>Refreshing Design</h4>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt labor dolore magna.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            
+                            <div class="title">
+                                <div class="icon">
+                                    <img src="/images/bootstrap.svg" alt="">
+                                </div>
+                                <h4>Solid Bootstrap 5</h4>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt labor dolore magna.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            
+                            <div class="title">
+                                <div class="icon">
+                                    <img src="/images/shortcode.svg" alt="">
+                                </div>
+                                <h4>100+ Components</h4>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt labor dolore magna.
+                                </p>
+                            </div>
+                        </div>  
+                        <div class="grid-item">
+                            
+                            <div class="title">
+                                <div class="icon">
+                                    <img src="/images/dashboard.svg" alt="">
+                                </div>
+                                <h4>Speed Optimized </h4>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt labor dolore magna.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                        <div class="title">
+                            <div class="icon">
+                                <img src="/images/layers.svg" alt="">
+                            </div>
+                            <h4>Fully Customizable</h4>
+                        </div>
+                        <div class="content">
+                            <p>
+                                Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt labor dolore magna.
+                            </p>
+                        </div></div>
+                        <div class="grid-item">
+                            
+                            <div class="title">
+                                <div class="icon">
+                                    <img src="/images/reload.svg" alt="">
+                                </div>
+                                <h4>Regular Updates </h4>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt labor dolore magna.
+                                </p>
+                            </div>
+                        </div>  
+                </div>
+        </section>
+
+        <section id="intro" class="section-our-intro">
+            <div class="section-title-container">
+                <div class="section-title">
+                   Our Inro Video
+                </div>
+                <div class="section-header">
+                   <p>Watch Our Promo Video</hp>
+                </div>
+                <div class="section-content">
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. 
+                </p>
+                </div>
+            </div>
+            <div class="video-content">
+                    <img src="/images/video-bg.png" alt="">
+                    <a class="video-popup" href="https://www.youtube.com/watch?v=NJbXptdalP0">Play</a>     
+            </div>
+        </section>
+
+        <section id="portfolio" class="section-portfolio">
+            <div class="section-title-container">
+                <div class="section-title">
+                   Our Portfolio
+                </div>
+                <div class="section-header">
+                   <p>Our Recent Works</hp>
+                </div>
+                <div class="section-content">
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. 
+                </p>
+                </div>
+                </div>
+                    <div class="portfolio-grid">
+
+                        <div class="grid-item1">
+                            All work
+                        </div>
+                        <div class="grid-item1">
+                            Branding
+                        </div>
+                        <div class="grid-item1">
+                            Marketing
+                        </div>
+                        <div class="grid-item1">
+                            Planning
+                        </div>
+                        <div class="grid-item1">
+                            Research
+                        </div>
+                    </div>
+                    <div class="portfolio-grid-img">
+                        <div class="grid-item1">
+                            <img src="/images/pf1.jpg" alt="">
+                            <h2>Graphics Design</h2>
+                            <h3>Short description for the ones who look for something new. Awesome! </h3>
+                        </div>
+                        <div class="grid-item1">
+                        <img src="/images/pf2.jpg" alt="">
+                        <h2>Web Development</h2>
+                        <h4>Short description for the ones who look for something new. Awesome! </h4>
+                       </div>
+                       <div class="grid-item1">
+                        <img src="/images//pf3.jpg" alt="">
+                       </div>
+                       <div class="grid-item1">
+                        <img src="/images/pf1.jpg" alt="">
+                        </div>
+                        <div class="grid-item1">
+                        <img src="/images/pf2.jpg" alt="">
+                        </div>
+                         <div class="grid-item1">
+                         <img src="/images/pf3.jpg" alt="">
+                        </div>
+                    </div>
+
+        </section>
+        <section id="pricing" class="pricing">
+            <div class="section-title-container">
+                <div class="section-title">
+                   Pricing
+                </div>
+                <div class="section-header">
+                   <p>Pricing & Plans</hp>
+                </div>
+                <div class="section-content">
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                </p>
+                </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <div class="icon">
+                        </div>
+                        <div class="section-title">
+                            Starter
+                        </div>
+                        <div class="content">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and industry.
+                            </p>
+                        </div>
+                        <div class="price" style="display: flex; text-align: center;">
+                            <span class="currency">
+                                $
+                            </span><h1><span style="font-size: 60px;">0</span></h1><span class="per">/mo</span>
+                        </div>
+                        <div>
+                            <span class="free-trial">START FREE TRIAL</span>
+                        </div>
+                        <div class="pricing-list">
+                            <ul>
+                              <li><svg class="lnr lnr-checkmark-circle"><use xlink:href="#lnr-checkmark-circle"></use></svg> Cras justo odio.</li> <br>
+                               <li><svg class="lnr lnr-checkmark-circle"><use xlink:href="#lnr-checkmark-circle"></use></svg> Dapibus ac facilisis in.</li><br>
+                               <li><svg class="lnr lnr-checkmark-circle"><use xlink:href="#lnr-checkmark-circle"></use></svg> Morbi leo risus.</li><br>
+                               <li><svg class="lnr lnr-checkmark-circle"><use xlink:href="#lnr-checkmark-circle"></use></svg> Excepteur sint occaecat velit.</li><br>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="icon">
                 
-            </div>
-            
-                <h3>Services</h3>
-            </div>
+                        </div>
+                        <div class="section-title">
+                            Exclusive
+                        </div>
+                        <div class="content">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and industry.
+                            </p>
+                        </div>
+                        <div class="price" style="display: flex; text-align: center;">
+                            <span class="currency">
+                                $
+                            </span><h1><span style="font-size: 60px;">99</span></h1><span class="per">/mo</span>
+                        </div>
+                        <div>
+                            <span class="free-trial">START FREE TRIAL</span>
+                        </div>
+                        <div class="pricing-list">
+                            <ul>
+                              <li><svg class="lnr lnr-checkmark-circle"><use xlink:href="#lnr-checkmark-circle"></use></svg> Cras justo odio.</li> <br>
+                               <li><svg class="lnr lnr-checkmark-circle"><use xlink:href="#lnr-checkmark-circle"></use></svg> Dapibus ac facilisis in.</li><br>
+                               <li><svg class="lnr lnr-checkmark-circle"><use xlink:href="#lnr-checkmark-circle"></use></svg> Morbi leo risus.</li><br>
+                               <li><svg class="lnr lnr-checkmark-circle"><use xlink:href="#lnr-checkmark-circle"></use></svg> Excepteur sint occaecat velit.</li><br>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="icon">
+                        
+                        </div>
+                        <div class="section-title">
+                            Premium
+                        </div>
+                        <div class="content">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and industry.
+                            </p>
+                        </div>
+                        <div class="price" style="display: flex; text-align: center;">
+                            <span class="currency">
+                                $
+                            </span><h1><span style="font-size: 60px;">150</span></h1><span class="per">/mo</span>
+                        </div>
+                        <div>
+                            <span class="free-trial">START FREE TRIAL</span>
+                        </div>
+                        <div class="pricing-list">
+                            <ul>
+                              <li><svg class="lnr lnr-checkmark-circle"><use xlink:href="#lnr-checkmark-circle"></use></svg> Cras justo odio.</li> <br>
+                               <li><svg class="lnr lnr-checkmark-circle"><use xlink:href="#lnr-checkmark-circle"></use></svg> Dapibus ac facilisis in.</li><br>
+                               <li><svg class="lnr lnr-checkmark-circle"><use xlink:href="#lnr-checkmark-circle"></use></svg> Morbi leo risus.</li><br>
+                               <li><svg class="lnr lnr-checkmark-circle"><use xlink:href="#lnr-checkmark-circle"></use></svg> Excepteur sint occaecat velit.</li><br>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
         </section>
 
-        <section id="section_pricing">
-            <h2>Portfolio</h2>
-        </section>
-        <section class="pricing">
-            <h2>Pricing</h2>
-        </section>
-        <section class="section_team">
-            <h2>
-                Team
-            </h2>
+        <section id="team" class="team">
+            <div class="section-title-container">
+                <div class="section-title">
+                    Our Team
+                </div>
+                <div class="section-header">
+                    <p>Our Creative Team</p>
+                 </div>
+                 <div class="content">
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. 
+                    </p>
+                </div>
+            </div>
+            <div class="teams-grid">
+                    <div class="grid-img">
+
+                        <img src="/images/team-1.jpg" alt="">
+                        <div class="img-desc">
+                            <h2>Jeffery Riley</h2>
+                            <h3> Art Director </h3>
+                            </div>
+                    </div>
+                    <div class="grid-img">
+                        <img src="/images/team-2.jpg" alt="">
+                        <div class="img-desc">
+                            <h2>Jeffery Riley</h2>
+                            <h3> Art Director </h3>
+                            </div>
+                    </div>
+                    <div class="grid-img">
+                        <img src="/images/team-3.jpg" alt="">
+                        <div class="img-desc">
+                        <h2>Jeffery Riley</h2>
+                        <h3> Art Director </h3>
+                        </div>
+                    </div>
+            </div>
 
         </section>
+
+
+
         <section class="section_contact">
             <h2>
                 Contact
@@ -106,5 +423,6 @@
             <a href="https://ayroui.com">Built-with Ayro UI</a>
 
         </div>
+        <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
 </body>
 </html>
